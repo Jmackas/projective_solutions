@@ -117,10 +117,6 @@ Main Content
 /* All FP sections */
 .fp_about, .fp_projects, .fp_contact {
     margin: 3em 0 6em 0;
-}
-
-/* All FP sections with Margin */
-.fp_about, .fp_contact {
     padding: 0 20%;
 }
 
