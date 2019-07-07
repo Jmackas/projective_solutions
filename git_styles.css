@@ -188,6 +188,12 @@ section.fp_projects {
 /*==================
 Footer
 ==================*/
+/* All footer headers aligned left */
+footer h2 {
+    text-align: left;
+}
+
+
 .site-footer {
     background: #114B5F;
     color: white;
