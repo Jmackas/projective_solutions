@@ -1,3 +1,157 @@
-body {
-    background: red;
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Roboto&display=swap'); 
+/*==================
+Universal
+==================*/
+body, p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 2.2em;
+}
+
+/* Removal of the underline in link */
+a:focus {
+    text-decoration: none;
+}
+
+/* All headers */
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Header 1 */
+h1.entry-title {
+    font-size: 3em;
+}
+
+/* Header 2 */
+h2 {
+    font-weight: normal;
+}
+
+/*==================
+Header
+==================*/
+/* Header for home page */
+.home header#masthead {
+    background: #114B5F;
+    background-color: #028090;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23114b5f'/%3E%3Cstop offset='1' stop-color='%23028090'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%23114b5f' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23114b5f' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.4'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+    /* background by SVGBackgrounds.com */
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0;
+    /* 	Removal of padding below menu */
+    /* Background colour change */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+/* Header for all other pages */
+header#masthead {
+    background: #114B5F;
+    background-color: #028090;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23114b5f'/%3E%3Cstop offset='1' stop-color='%23028090'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%23114b5f' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23114b5f' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.4'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+    /* background by SVGBackgrounds.com */
+    background-attachment: fixed;
+    background-size: cover;
+    /* 	Removal of padding below menu */
+    padding-bottom: 1em;
+    /* Background colour change */
+}
+
+/* Site title */
+.site-title a:link, .site-title a:visited {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 4em;
+}
+
+/* Site description */
+p.site-description {
+    display: block;
+    font-style: italic;
+    color: white;
+    font-size: smaller;
+}
+
+/* Menu items colour */
+ul#menu-main-menu a {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+/* Force the header title into the middle */
+.site-branding-container {
+    width: 100%;
+    display: flex;
+	    text-align: center;
+    justify-content: center;
+}
+
+/* Site navigation buttons */
+nav#site-navigation {
+    text-align: center;
+}
+
+/*==================
+Main Content
+==================*/
+/* All FP sections with Margin */
+.fp_about {
+        padding: 0 20%;
+    margin: 3em 0;
+}
+
+/* Photograph of me */
+.fp_about img {
+    float: left;
+	    margin-right: 20px;
+}
+
+/*
+Projects Bar
+*/
+/* Section targetted */
+section.fp_projects {
+    display: flex;
+}
+
+/* All hyperlinks */
+.fp_projects a {
+    height: 270px;
+    color: white;
+    /* display: block; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid #D34E24;
+    border-bottom: 2px solid #D34E24;
+    width: 15%;
+}
+
+/*==================
+Footer
+==================*/
+.site-footer {
+    background: #114B5F;
+    color: white;
+}
+
+.menu a {
+    color: white;
+    font-weight: normal;
+}
+
+/*==================
+Misc Styles
+==================*/
+/* Remove the site info */
+.site-info {
+    display: none;
+}
+
+/* Removal of line above headers */
+h1:not(.site-title):before, h2:before, .entry .entry-title:before {
+    display: none;
 }
