@@ -129,12 +129,12 @@ Main Content
 Projects Bar
 */
 /* Section targetted */
-section.fp_projects {
+.fp_projects div {
     display: flex;
 }
 
 /* All hyperlinks */
-.fp_projects a {
+.fp_projects div a {
     height: 270px;
     color: white;
     /* display: block; */
