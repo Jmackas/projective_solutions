@@ -147,6 +147,30 @@ section.fp_projects {
     text-align: center;
 }
 
+/* Wordpress logo */
+.fp_projects .wordpress {
+    background-image: url(https://projectivesolutions.com/wp-content/uploads/2019/07/wordpress_logo.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Joomla logo */
+.fp_projects .joomla {
+    background-image: url(https://projectivesolutions.com/wp-content/uploads/2019/07/joomla_logo.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Wordpress logo */
+.fp_projects .moodle {
+    background-image: url(https://projectivesolutions.com/wp-content/uploads/2019/07/moodle_logo.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 /*==================
 Footer
 ==================*/
