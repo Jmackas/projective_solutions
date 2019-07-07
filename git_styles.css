@@ -26,6 +26,7 @@ h1.entry-title {
 h2 {
     text-align: center;
     font-weight: normal;
+    border-bottom: 1px solid #3333331f;
 }
 
 /* Button */
@@ -193,6 +194,8 @@ Footer
 /* All footer headers aligned left */
 footer h2 {
     text-align: left;
+    /* Removal of border */
+    border: initial;
 }
 
 .site-footer {
