@@ -140,8 +140,7 @@ section.fp_projects {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top: 2px solid #D34E24;
-    border-bottom: 2px solid #D34E24;
+
     width: 25%;
     color: black;
     text-align: center;
@@ -169,6 +168,12 @@ section.fp_projects {
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+/* On Hover */
+.fp_projects .htmlcssjs:hover, .fp_projects .wordpress:hover, .fp_projects .joomla:hover, .fp_projects .moodle:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
 }
 
 /*==================
