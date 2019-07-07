@@ -29,7 +29,7 @@ h2 {
 }
 
 /* Button */
-.button, button, input[type="button"], input[type="reset"], input[type="submit"] {
+.button, button, input[type="button"], input[type="reset"], input[type="submit"], .button {
     background: #D34E24;
     border: 1px solid #D34E24;
     font-weight: normal;
@@ -37,7 +37,7 @@ h2 {
 }
 
 /* Button Hover */
-.button:hover, button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
+.button:hover, button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .button {
     border: 1px solid #D34E24;
     background: white;
     color: #D34E24;
