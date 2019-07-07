@@ -146,6 +146,14 @@ section.fp_projects {
     text-align: center;
 }
 
+/* HTML CSS JS Logo */
+.fp_projects .htmlcssjs {
+    background-image: url(https://projectivesolutions.com/wp-content/uploads/2019/07/htmlcssjs_logo.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 /* Wordpress logo */
 .fp_projects .wordpress {
     background-image: url(https://projectivesolutions.com/wp-content/uploads/2019/07/wordpress_logo.png);
@@ -162,7 +170,7 @@ section.fp_projects {
     background-position: center;
 }
 
-/* Wordpress logo */
+/* Moodle logo */
 .fp_projects .moodle {
     background-image: url(https://projectivesolutions.com/wp-content/uploads/2019/07/moodle_logo.png);
     background-size: 50%;
