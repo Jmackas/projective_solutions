@@ -26,6 +26,21 @@ h2 {
     font-weight: normal;
 }
 
+/* Button */
+.button, button, input[type="button"], input[type="reset"], input[type="submit"] {
+    background: #D34E24;
+    border: 1px solid #D34E24;
+    font-weight: normal;
+    border-radius: 0;
+}
+
+/* Button Hover */
+.button:hover, button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
+    border: 1px solid #D34E24;
+    background: white;
+    color: #D34E24;
+}
+
 /*==================
 Header
 ==================*/
