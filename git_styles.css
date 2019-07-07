@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand|Roboto&display=swap'); 
-/*==================
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Roboto&display=swap'); /*==================
 Universal
 ==================*/
 body, p {
@@ -85,7 +84,7 @@ ul#menu-main-menu a {
 .site-branding-container {
     width: 100%;
     display: flex;
-	    text-align: center;
+    text-align: center;
     justify-content: center;
 }
 
@@ -98,15 +97,15 @@ nav#site-navigation {
 Main Content
 ==================*/
 /* All FP sections with Margin */
-.fp_about {
-        padding: 0 20%;
+.fp_about, .fp_contact {
+    padding: 0 20%;
     margin: 3em 0;
 }
 
 /* Photograph of me */
 .fp_about img {
     float: left;
-	    margin-right: 20px;
+    margin-right: 20px;
 }
 
 /*
