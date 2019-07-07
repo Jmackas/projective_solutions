@@ -143,6 +143,8 @@ section.fp_projects {
     border-top: 2px solid #D34E24;
     border-bottom: 2px solid #D34E24;
     width: 25%;
+    color: black;
+    text-align: center;
 }
 
 /*==================
