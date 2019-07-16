@@ -194,13 +194,17 @@ Projects Bar
     transition: .2s;
     display: block;
     padding: 40px 20px;
+    background-image: url("https://projectivesolutions.com/wp-content/uploads/2019/07/moodle_ui.png");
     border: 1px solid rgba(0,0,0,0);
+    background-size: cover;
+    background-position: center;
 }
 
 /* All project hyperlinks hover */
 .entry-content .project_list a:hover {
-    border-bottom: 1px solid #D34E24;
+    border: 1px solid #D34E24;
 }
+
 
 
 /*==================
