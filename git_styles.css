@@ -194,8 +194,13 @@ Projects Bar
     background: red;
     display: block;
     padding: 40px 20px;
+    border: 1px solid rgba(0,0,0,0);
 }
 
+/* All project hyperlinks hover */
+.entry-content .project_list a:hover {
+    border: 1px solid blue;
+}
 
 /*==================
 Footer
