@@ -216,3 +216,9 @@ Misc Styles
 h1:not(.site-title):before, h2:before, .entry .entry-title:before {
     display: none;
 }
+
+/* Remove the sidebar space off of normal articles */
+.entry .entry-content > *, .entry .entry-summary > * {
+    max-width: 100%;
+}
+
