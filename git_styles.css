@@ -80,7 +80,7 @@ header#masthead {
 /* Site title */
 .site-title a:link, .site-title a:visited {
     color: white;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 4em;
 }
 
@@ -95,7 +95,7 @@ p.site-description {
 /* Menu items colour */
 ul#menu-main-menu a {
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: normal;
 }
 
