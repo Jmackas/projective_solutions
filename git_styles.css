@@ -5,6 +5,7 @@ Universal
 body, p, button, input, select, optgroup, textarea {
     font-family: 'Rubik', sans-serif;
     line-height: 2.2em;
+    color: #333;
 }
 
 /* Removal of the underline in link */
