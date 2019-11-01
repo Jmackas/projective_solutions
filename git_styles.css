@@ -117,8 +117,9 @@ Main Content
 ==================*/
 /* All FP sections */
 .fp_about, .fp_projects, .fp_contact {
-    margin: 3em 0 6em 0;
-    padding: 0 20%;
+    margin: auto;
+    /* padding: 0 20%; */
+    width: 60%;
 }
 
 /* Photograph of me */
