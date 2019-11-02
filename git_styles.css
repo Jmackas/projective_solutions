@@ -198,6 +198,17 @@ Projects Bar
     transition: 0.2s;
 }
 
+/* Media queries */
+@media (max-width: 900px) {
+    .fp_about, .fp_projects, .fp_contact {
+        width: 90%;
+    }
+
+    .fp_about img {
+      display: none;
+    }
+}
+
 /*==================
 Projects Bar
 ==================*/
