@@ -92,6 +92,7 @@ header#masthead {
     color: white;
     font-family: 'Rubik', sans-serif;
     font-size: 3em;
+    transition: .2s;
 }
 
 /* Site title underline */
