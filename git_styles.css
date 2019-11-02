@@ -230,6 +230,14 @@ Projects Bar
 }
 
 
+/*==================
+Contact Form
+==================*/
+/* Contact form inputs */
+.wpcf7-form-control-wrap input {
+    width: 100%;
+}
+
 
 /*==================
 Footer
