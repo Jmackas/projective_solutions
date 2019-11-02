@@ -102,11 +102,19 @@ p.site-description {
     font-size: smaller;
 }
 
-/* Menu items colour */
+/* Menu items */
 ul#menu-main-menu a {
+    /* Colour changed to white */
     color: white;
     font-family: 'Rubik', sans-serif;
     font-weight: normal;
+    border-bottom: 3px solid rgba(0,0,0,0);
+    transition: 0.1s;
+}
+
+/* Menu items hover */
+ul#menu-main-menu a:hover {
+    border-bottom: 3px solid white;
 }
 
 /* Force the header title into the middle */
