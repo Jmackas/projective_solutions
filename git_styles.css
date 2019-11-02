@@ -29,7 +29,6 @@ h2 {
     text-align: center;
     font-weight: normal;
     border-bottom: 1px solid #3333331f;
-    margin-top: 1.3em;
 }
 
 /* Button */
@@ -128,7 +127,7 @@ Main Content
 ==================*/
 /* All FP sections */
 .fp_about, .fp_projects, .fp_contact {
-    margin: auto;
+    margin: 83px auto;
     /* padding: 0 20%; */
     width: 60%;
 }
