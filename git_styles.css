@@ -137,6 +137,7 @@ Main Content
 .fp_about img {
     float: left;
     margin-right: 20px;
+    width: 350px;
 }
 
 /*
