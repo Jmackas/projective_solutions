@@ -94,6 +94,23 @@ header#masthead {
     font-size: 3em;
 }
 
+/* Site title underline */
+p.site-title:before {
+    content: "";
+    position: absolute;
+    width: 6%;
+    height: 1px;
+    bottom: 46px;
+    left: 3px;
+    border-bottom: 3px solid white;
+}
+
+/* Site title hover */
+p.site-title:hover:before {
+    width: 100%;
+}
+
+
 /* Site description */
 p.site-description {
     display: block;
