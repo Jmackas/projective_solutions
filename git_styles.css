@@ -151,7 +151,12 @@ li.menu-item.menu-item-has-children {
 .main-navigation .sub-menu > li > a,
 .main-navigation .sub-menu > li > .menu-item-link-return {
   background: #114B5F;
+    font-weight: 100;
+    /* font-family: re; */
+    font-family: 'Rubik', sans-serif;
 }
+
+
 
 
 /*==================
