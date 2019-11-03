@@ -147,6 +147,13 @@ li.menu-item.menu-item-has-children {
     color: white;
 }
 
+/* Drop down menu item */
+.main-navigation .sub-menu > li > a,
+.main-navigation .sub-menu > li > .menu-item-link-return {
+  background: #114B5F;
+}
+
+
 /*==================
 Main Content
 ==================*/
