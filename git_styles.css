@@ -142,6 +142,11 @@ nav#site-navigation {
     text-align: center;
 }
 
+/* Expand menu items mobile icon */
+button.submenu-expand.main-menu-more-toggle {
+    color: white;
+}
+
 /*==================
 Main Content
 ==================*/
